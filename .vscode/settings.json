@@ -1,0 +1,21 @@
+{
+  // "python.pythonPath": "${workspaceFolder}/env/bin/python3",
+  // "editor.formatOnSave": true,
+  // "python.linting.pycodestyleEnabled": true,
+  // "python.linting.pylintPath": "pylint",
+  // "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+  // "python.linting.pylintEnabled": true,
+  // "python.venvPath": "${workspaceFolder}/env/bin/python3",
+  // "python.linting.pycodestyleArgs": ["--ignore=E501"],
+  // "files.exclude": {
+  //   "**/*.pyc": true
+  // }
+  //  "python.terminal.activateEnvironment": true,
+  // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  //  "python.condaPath": "C:\\Users\\Ponch\\Anaconda3\\Scripts\\conda.exe"
+  
+  /*
+    Whenever you are going to 
+  */
+
+}
