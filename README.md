@@ -47,10 +47,20 @@ python manage.py runserver
 ![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/demo_gifs/Django-Payment.gif)
 
 ## Different Pages
-- Store Catalog
-
+- Sign Up Page
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/signup.JPG)
 - Log In Page
-
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/login.JPG)
+- Store Catalog
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/catalog.JPG)
+- Product Page
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/product.JPG)
+- Cart Summary
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/cart.JPG)
+- Checkout Form
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/checkout.JPG)
+- Payment Form
+![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/blob/main/page_showcase/payment.JPG)
 ## SQLite Database Models
 - User profile: user profile with email and password with Django's authentication
 - Item: product items available for sale (with price, category, label, description)
