@@ -36,15 +36,15 @@ python manage.py runserver
 
 ### Create an account, log in, and log out
 - Users can create an account with their email and password.
-![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/demo_gifs/Django-Account.gif)
+![](https://github.com/alfonsodelarosa4/blob/main/E-Commerce-Clothing-Store/demo_gifs/Django-Account.gif)
 
 ### Cart functionality: add items, remove items, change item count
 - Users can add items, remove items, and change number of items in cart
-![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/demo_gifs/Django-Cart.gif)
+![](https://github.com/alfonsodelarosa4/blob/main/E-Commerce-Clothing-Store/demo_gifs/Django-Cart.gif)
 
 ### Payment functionality
 - Users can fill out two forms to pay for order (billing/shipping address and payment information)
-![](https://github.com/alfonsodelarosa4/E-Commerce-Clothing-Store/demo_gifs/Django-Payment.gif)
+![](https://github.com/alfonsodelarosa4/blob/main/E-Commerce-Clothing-Store/demo_gifs/Django-Payment.gif)
 
 ## Different Pages
 - Store Catalog
