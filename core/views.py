@@ -115,7 +115,6 @@ class CheckoutView(View):
             order = Order.objects.get(user=self.request.user, ordered=False)
             # ** Form values: use default shipping address or use different shipping address, use same address for billing or use default billing address or use different address
             if form.is_valid():
-
                 use_default_shipping = form.cleaned_data.get(
                     'use_default_shipping')
                 if use_default_shipping:
@@ -171,7 +170,6 @@ class CheckoutView(View):
                     'use_default_billing')
                 same_billing_address = form.cleaned_data.get(
                     'same_billing_address')
-
                 if same_billing_address:
                     billing_address = shipping_address
                     billing_address.pk = None
@@ -229,18 +227,17 @@ class CheckoutView(View):
                     else:
                         messages.info(
                             self.request, "Please fill in the required billing address fields")
+                # payment_option = form.cleaned_data.get('payment_option')
+                # # ** select payment information
+                # if payment_option == 'S':
+                return redirect('core:payment')
+                # elif payment_option == 'P':
+                #     return redirect('core:payment', payment_option='paypal')
 
-                payment_option = form.cleaned_data.get('payment_option')
-                # ** select payment information
-                if payment_option == 'S':
-                    return redirect('core:payment', payment_option='stripe')
-                elif payment_option == 'P':
-                    return redirect('core:payment', payment_option='paypal')
-                else:
-                    messages.warning(
-                        self.request, "Invalid payment option selected")
-                    return redirect('core:checkout')
-        
+                # else:
+                #     messages.warning(
+                #         self.request, "Invalid payment option selected")
+                #     return redirect('core:checkout')
         except ObjectDoesNotExist:
             messages.warning(self.request, "You do not have an active order")
             return redirect("core:order-summary")

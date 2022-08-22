@@ -112,7 +112,7 @@
               {% endif %}
               <hr>
 
-              <h3>Payment option</h3>
+              {% comment %} <h3>Payment option</h3>
 
               <div class="d-block my-3">
                 {% for value, name in form.fields.payment_option.choices %}
@@ -121,7 +121,7 @@
                   <label class="custom-control-label" for="{{ name }}">{{ name }}</label>
                 </div>
                 {% endfor %}
-              </div>
+              </div> {% endcomment %}
 
               <hr class="mb-4">
               <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to Payment</button>
