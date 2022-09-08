@@ -7,6 +7,7 @@
     - View product description of items
     - Add and remove items from cart
     - Process checkout with Stripe API
+- This is a fullstack application (Django/Python) which utilizes an SQL database (SQLite)
 
 ## Requirements
 - On Visual Studio code, enter: ctrl + shift + P
